@@ -81,6 +81,8 @@ One very helpful input from my lecturer was the idea of using sliders to adjust 
 
 For future projects, I will take away that it is important to think about the installation already during the planning and production phase, not only about the concept and the visuals.
 
+## Video
+Here you can see the prototype in action: https://youtu.be/ikxfG56IXjg
 
 
 
