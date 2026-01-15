@@ -1,4 +1,4 @@
-![IMG_3656 2](https://github.com/user-attachments/assets/d5deb561-d53c-48ba-9894-d8d64e556d9f)# Project documentation Creative Technologie
+# Project documentation Creative Technologie
 
 ![Visualisierung](https://github.com/user-attachments/assets/3c4625e9-369b-432f-8ca5-38f633e326de)
 
