@@ -7,8 +7,8 @@ A project by Nick Steinmann
 
 My project for the "Creative Technologies" module in the 5th semester of the MMP program. A creative exploration of an exhibition on the theme of "courage".
 
-# COURAGE  
-### An Interactive Installation (Video, Sound and Real-time processing)
+# An Interactive Installation
+### (Video, Sound and Real-time processing)
 
 
 Courage is an interactive installation created for a fictional exhibition. The project explores courage, self-expression, and the act of using one’s own voice in public.
@@ -68,6 +68,18 @@ The person layer is masked and composited over the animated blue bar background 
 
 ## Screeenshots and Pictures
 <img width="1378" height="826" alt="Bildschirmfoto 2026-01-15 um 17 13 42" src="https://github.com/user-attachments/assets/66ae41b1-4312-4187-a19c-a58d305d24be" />
+
+
+## The "Making process"
+I really enjoyed developing this project and learned a lot about TouchDesigner in the process. I especially liked that I was able to realise my own idea exactly the way I had imagined it. TouchDesigner offers an incredible range of possibilities, which is both inspiring and challenging. Because it was a new software for me, I had to learn many things from scratch, which sometimes made the process more difficult and exhausting.
+
+It took me quite some time to find a working solution for the mask. I first found MediaPipe online, but the version I downloaded was far too large and complex for what I needed. It took several attempts before I fully. understood how to use it properly.
+
+Setting up the lag for the movement of the bars was also challenging. I had to experiment for a long time before I found values that felt right and created a smooth but responsive motion. In addition, TouchDesigner kept crashing because MediaPipe was using too much memory. I solved this by disabling all unnecessary detection modules so that only the image segmentation remained active.
+
+One very helpful input from my lecturer was the idea of using sliders to adjust the installation on site. This makes setting up the installation much easier and more flexible. It is a very simple idea, but extremely effective.
+
+For future projects, I will take away that it is important to think about the installation already during the planning and production phase, not only about the concept and the visuals.
 
 
 
