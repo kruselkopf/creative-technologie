@@ -1,4 +1,4 @@
-# Project documentation Creative Technologie
+![IMG_3656 2](https://github.com/user-attachments/assets/d5deb561-d53c-48ba-9894-d8d64e556d9f)# Project documentation Creative Technologie
 
 ![Visualisierung](https://github.com/user-attachments/assets/3c4625e9-369b-432f-8ca5-38f633e326de)
 
@@ -70,6 +70,7 @@ The person layer is masked and composited over the animated blue bar background 
 <img width="1378" height="826" alt="Bildschirmfoto 2026-01-15 um 17 13 42" src="https://github.com/user-attachments/assets/66ae41b1-4312-4187-a19c-a58d305d24be" />
 <img width="2512" height="1390" alt="Bildschirmfoto 2026-01-15 um 18 55 02" src="https://github.com/user-attachments/assets/b842ae33-0f50-4a58-ba42-93ae0435b594" />
 <img width="2507" height="1388" alt="Bildschirmfoto 2026-01-15 um 18 54 51" src="https://github.com/user-attachments/assets/2234c600-11c9-46b6-8fe9-5de430dfb266" />
+![IMG_3656 2](https://github.com/user-attachments/assets/f7c559d9-99c4-4e4d-8783-5836321b9a87)
 
 ## The "Making process"
 I really enjoyed developing this project and learned a lot about TouchDesigner in the process. I especially liked that I was able to realise my own idea exactly the way I had imagined it. TouchDesigner offers an incredible range of possibilities, which is both inspiring and challenging. Because it was a new software for me, I had to learn many things from scratch, which sometimes made the process more difficult and exhausting.
