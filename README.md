@@ -49,6 +49,9 @@ Courage is simple and intuitive. No instructions are needed — the interaction 
 
 Each participant reacts differently. Some shout loudly, some hesitate, and others stop quickly.
 
+## Usage
+- open TD 
+
 
 In case the Media Pipe in TD does not work. Please replace the media pipe node with this file and relink the "image_segmentation".
 https://fhgraubuenden-my.sharepoint.com/:f:/g/personal/steinmannick_fhgr_ch/IgAyRq-wak9MTaXyMjtPuyZcATu_JWoUWc4-ncJtu8Vd1zo?e=pXCoeC
