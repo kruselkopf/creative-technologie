@@ -57,65 +57,19 @@ In case the Media Pipe in TD does not work. Please replace the media pipe node w
 https://fhgraubuenden-my.sharepoint.com/:f:/g/personal/steinmannick_fhgr_ch/IgAyRq-wak9MTaXyMjtPuyZcATu_JWoUWc4-ncJtu8Vd1zo?e=pXCoeC
 
 ## Communication diagram
+<img width="1536" height="1024" alt="communication diagram" src="https://github.com/user-attachments/assets/2a862a75-c924-4ddf-b65d-4af1977c8cea" />
 
 The microphone signal is processed through an Audio Device In CHOP, then analyzed using an Analyze CHOP to extract amplitude (RMS/peak). A Lag CHOP smooths rapid changes, and a Math CHOP normalizes and scales the signal.
+
 Two Slider CHOPs and additional Math CHOPs control build-up and decay behavior of the signal. This mapped value drives the vertical scale of a Rectangle TOP, which forms the blue bar. Noise and displacement operators can be applied for visual modulation.
+
 The camera feed enters via a Video Device In TOP and is passed into MediaPipe, which outputs segmentation masks. These masks split the image into person and background layers.
 The person layer is masked and composited over the animated blue bar background using a Composite TOP. The final image is sent to a Video Out TOP for projection.
 
-        ┌────────────┐
-        │  Microphone│
-        └─────┬──────┘
-              │  Audio Signal
-              ▼
-      ┌──────────────────┐
-      │  Audio Analysis   │
-      │  (volume + smooth)│
-      └─────┬────────────┘
-            │ normalized loudness
-            ▼
-     ┌───────────────────┐
-     │   Value Mapping   │
-     │ (gain, offsets,   │
-     │ build/break logic)│
-     └─────┬─────────────┘
-           │ bar height value
-           ▼
-   ┌────────────────────┐
-   │  Blue Bar Generator │
-   │ (rectangle + noise) │
-   └─────┬──────────────┘
-         │ background texture
-         │
-         │
-         │           ┌─────────────┐
-         │           │   Camera     │
-         │           └─────┬───────┘
-         │                 │ video
-         │                 ▼
-         │        ┌─────────────────┐
-         │        │ Person Segmentation│
-         │        │ (MediaPipe)        │
-         │        └─────┬─────────────┘
-         │              │ masks
-         │              ▼
-         │      ┌─────────────────┐
-         │      │ Foreground (Person)│
-         │      └─────┬─────────────┘
-         │            │
-         │      ┌─────▼─────────────┐
-         │      │ Background (Bar)  │
-         │      └─────┬─────────────┘
-         │            │
-         └────────────▼──────────────┐
-                        │
-               ┌──────────────────┐
-               │   Composite       │
-               │ (person + bar)    │
-               └─────┬────────────┘
-                     │
-                     ▼
-               ┌────────────┐
-               │ Projection │
-               └────────────┘
+## Screeenshots and Pictures
+<img width="1378" height="826" alt="Bildschirmfoto 2026-01-15 um 17 13 42" src="https://github.com/user-attachments/assets/66ae41b1-4312-4187-a19c-a58d305d24be" />
 
+
+
+
+   
